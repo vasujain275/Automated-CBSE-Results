@@ -95,16 +95,38 @@ Note: Make sure you have installed Python on your system (as explained in the pr
 
 By following these steps, you should be able to set up Visual Studio Code for Python development, install the necessary extensions, and execute your Python script using Code Runner.
 
+## Installing Chromium Driver and Checking Chrome Version
+
+This guide provides step-by-step instructions for installing the Chromium Driver and checking the Chrome version on your system to ensure compatibility. Please follow these steps:
+
+Determine Chrome Version:
+
+    Launch Google Chrome on your Windows PC.
+    Click the three-dot menu icon at the top right corner of the browser window.
+    Select "Help" from the dropdown menu, then click on "About Google Chrome".
+    A new tab will open, displaying the Chrome version number. Note this version number for later reference.
+
+Download Chromium Driver:
+
+    Open your preferred web browser and visit the official Chromium Driver website at https://sites.google.com/a/chromium.org/chromedriver/downloads.
+    Locate the version of the Chromium Driver that matches your Chrome version from the list of available downloads.
+    Click on the download link associated with the appropriate driver version for your system.
+
+Extract the Chromium Driver:
+
+    Once the download is complete, extract the downloaded ZIP file to a preferred location on your computer.
+
+Please Confirm Chrome and Chromium Driver Compatibility!
+
 ## In order to tailor the roll number settings in the code to your specific requirements, please follow the steps outlined below:
 
 Locate the "rolls" Variable:
 
         Search for the variable named "rolls" within the code.
-        This variable is typically found in a section related to roll numbers or student information.
 
 Estimate the Roll Number Range:
 
-        Make an informed estimate as to whether your school's roll numbers are generally situated approximately 50-100 places before or after your own roll number.
+        Make an informed estimate of your school's roll numbers starting point which is generally situated approximately 50-100 places before or after your own roll number.
 
 Adjust the School Number:
 
@@ -113,7 +135,7 @@ Adjust the School Number:
 
 Modify the Roll Number Values:
 
-        Within the "rolls" variable, you will find two values that need to be changed.
+        Within the "rolls" variable, you will find two values that need to be changed.(Look in for loop)
         The first value corresponds to the beginning value of the roll numbers used in your school.
         The second value represents the expected end value of the roll numbers.
         Update these two values accordingly to match your school's roll number range.
