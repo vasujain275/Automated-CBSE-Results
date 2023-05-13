@@ -114,7 +114,7 @@ Download Chromium Driver:
 
 Extract the Chromium Driver:
 
-    Once the download is complete, extract the downloaded ZIP file to a preferred location on your computer.
+    Once the download is complete, extract the downloaded ZIP file to Drivers subfolder of this project.
 
 Please Confirm Chrome and Chromium Driver Compatibility!
 
