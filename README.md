@@ -27,7 +27,8 @@ Clone the Repository:
         
 
 ## Step-by-Step Guide: Setting up and Running this Python Script on Windows
-- Install Python:
+Install Python:
+
     Visit the official Python website at https://www.python.org/.
     Click on the "Downloads" tab.
     Choose the latest stable version of Python for Windows.
@@ -35,30 +36,35 @@ Clone the Repository:
     Run the installer and follow the on-screen instructions.
     During the installation process, make sure to select the option to add Python to your system's PATH.
 
-- Verify Python Installation:
+Verify Python Installation:
+
     Open the Command Prompt by pressing Win + R and typing cmd, then hit Enter.
     Type python --version and press Enter.
     The installed Python version should be displayed in the Command Prompt window, indicating a successful installation.
 
-- Install Required Dependencies:
+Install Required Dependencies:
+
     Navigate to the directory where you have stored your Python script using the cd command in Command Prompt.
     If your script relies on any external libraries or modules, you may need to install them using pip, the Python package installer.
     To install a package, use the command pip install selenium in the Command Prompt.
 
-- Configure the Script:
+Configure the Script:
 
     Open the Python script using a text editor of your choice.(Use VSCode if you are beginner)
     Look for any configurable variables or settings within the script that I have commented.(Like Roll Numbers and School Numbers)
     Adjust those variables according to your requirements. For example, you may need to specify the file path to driver,etc
+
 ### Step-by-Step Guide: Installing Visual Studio Code (VSCode) and Setting it up for Python Development
 
     Download Visual Studio Code:
+
         Visit the official Visual Studio Code website at https://code.visualstudio.com/.
         Click on the "Download" button to download the installer for Windows.
         Run the installer and follow the on-screen instructions.
         Choose the desired installation options and complete the installation process.
 
     Install Python Extension in VSCode:
+
         Open Visual Studio Code after installation.
         Click on the Extensions icon on the left sidebar or press Ctrl + Shift + X.
         In the Extensions view, search for "Python" in the search bar.
@@ -66,18 +72,21 @@ Clone the Repository:
         Wait for the installation to complete, and then click on the "Reload" button to activate the extension.
 
     Install Code Runner Extension:
+
         In Visual Studio Code, click on the Extensions icon on the left sidebar or press Ctrl + Shift + X.
         In the Extensions view, search for "Code Runner" in the search bar.
         Click on the "Code Runner" extension offered by Jun Han and click on the "Install" button.
         Wait for the installation to complete, and then click on the "Reload" button to activate the extension.
 
     Set Up Python Interpreter:
+
         Open your Python script file or create a new Python file in Visual Studio Code.
         Click on the bottom-left corner of the VSCode window where it says "Select Interpreter" or click on the Python version displayed in the bottom status bar.
         Choose the desired Python interpreter from the list provided.
         If the interpreter is not listed, click on "Enter interpreter path" and provide the path to your Python executable.
 
     Run the Python Script:
+
         Open your Python script in Visual Studio Code.
         Right-click within the editor or use the shortcut Ctrl + Alt + N to run the script using Code Runner.
         Observe the output in the integrated terminal.
@@ -89,22 +98,27 @@ By following these steps, you should be able to set up Visual Studio Code for Py
 ## In order to tailor the roll number settings in the code to your specific requirements, please follow the steps outlined below:
 
 - Locate the "rolls" Variable:
+
         Search for the variable named "rolls" within the code.
         This variable is typically found in a section related to roll numbers or student information.
 
 - Estimate the Roll Number Range:
+
         Make an informed estimate as to whether your school's roll numbers are generally situated approximately 50-100 places before or after your own roll number.
 
 - Adjust the School Number:
+
         Locate the section in the code that pertains to the school number.
         Update the existing school number with the correct school number applicable to your institution.
 
 - Modify the Roll Number Values:
+
         Within the "rolls" variable, you will find two values that need to be changed.
         The first value corresponds to the beginning value of the roll numbers used in your school.
         The second value represents the expected end value of the roll numbers.
         Update these two values accordingly to match your school's roll number range.
 
 - Save the Report Cards:
+
         Prior to running the script, ensure that a folder named "Results" already exists in the same directory as the script.
         Once the script has completed its execution, all the generated report cards will be automatically saved in the "Results" folder, organized based on roll numbers.
