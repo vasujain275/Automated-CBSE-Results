@@ -1,6 +1,32 @@
 # cbseResults2023
  This is a selenium based Python Script to get Score Cards of your Entire School(ofc 12th students)
-# Step-by-Step Guide: Setting up and Running this Python Script on Windows
+
+## You need to clone this Repository in order to use it
+### Step-by-Step Guide: Cloning a GitHub Repository on Windows
+Install Git:
+
+    Visit the official Git website at https://git-scm.com/.
+    Download the Git installer for Windows.
+    Run the installer and follow the on-screen instructions.
+    Choose the desired installation options and complete the installation process.
+
+Open Git Bash:
+
+    After Git installation, search for "Git Bash" in the Start menu and open it.
+
+Navigate to the Desired Directory:
+
+    Use the cd command in Git Bash to navigate to the directory where you want to clone the repository.
+    For example, to navigate to the "Documents" directory, use the command: cd Documents
+
+Clone the Repository:
+
+    In your web browser, go to the GitHub repository you want to clone.
+    Click on the "Code" button and copy the repository URL.
+    In Git Bash, use the command git clone https://github.com/vasujain275/cbseResults2023.git to clone the repository.
+        
+
+## Step-by-Step Guide: Setting up and Running this Python Script on Windows
 - Install Python:
     Visit the official Python website at https://www.python.org/.
     Click on the "Downloads" tab.
@@ -24,7 +50,7 @@
     Open the Python script using a text editor of your choice.(Use VSCode if you are beginner)
     Look for any configurable variables or settings within the script that I have commented.(Like Roll Numbers and School Numbers)
     Adjust those variables according to your requirements. For example, you may need to specify the file path to driver,etc
-- Step-by-Step Guide: Installing Visual Studio Code (VSCode) and Setting it up for Python Development
+### Step-by-Step Guide: Installing Visual Studio Code (VSCode) and Setting it up for Python Development
 
     Download Visual Studio Code:
         Visit the official Visual Studio Code website at https://code.visualstudio.com/.
@@ -51,20 +77,6 @@
         Choose the desired Python interpreter from the list provided.
         If the interpreter is not listed, click on "Enter interpreter path" and provide the path to your Python executable.
 
-    Configure Code Runner for Python:
-        Press Ctrl + , to open the User Settings in Visual Studio Code.
-        Search for "code-runner.executorMap" in the search bar within the settings.
-        Under "User Settings", click on "Edit in settings.json" to modify the settings.
-        In the "code-runner.executorMap" section, add the following line:
-
-        css
-
-        "code-runner.executorMap": {
-           "python": "python -u",
-        }
-
-        Save the settings.
-
     Run the Python Script:
         Open your Python script in Visual Studio Code.
         Right-click within the editor or use the shortcut Ctrl + Alt + N to run the script using Code Runner.
@@ -73,3 +85,26 @@
 Note: Make sure you have installed Python on your system (as explained in the previous guide) before proceeding with setting up Visual Studio Code for Python development.
 
 By following these steps, you should be able to set up Visual Studio Code for Python development, install the necessary extensions, and execute your Python script using Code Runner.
+
+## In order to tailor the roll number settings in the code to your specific requirements, please follow the steps outlined below:
+
+- Locate the "rolls" Variable:
+        Search for the variable named "rolls" within the code.
+        This variable is typically found in a section related to roll numbers or student information.
+
+- Estimate the Roll Number Range:
+        Make an informed estimate as to whether your school's roll numbers are generally situated approximately 50-100 places before or after your own roll number.
+
+- Adjust the School Number:
+        Locate the section in the code that pertains to the school number.
+        Update the existing school number with the correct school number applicable to your institution.
+
+- Modify the Roll Number Values:
+        Within the "rolls" variable, you will find two values that need to be changed.
+        The first value corresponds to the beginning value of the roll numbers used in your school.
+        The second value represents the expected end value of the roll numbers.
+        Update these two values accordingly to match your school's roll number range.
+
+- Save the Report Cards:
+        Prior to running the script, ensure that a folder named "Results" already exists in the same directory as the script.
+        Once the script has completed its execution, all the generated report cards will be automatically saved in the "Results" folder, organized based on roll numbers.
