@@ -1,3 +1,5 @@
+# !! NOT WORKING ANYMORE !!
+## This code is broken as the cbse closed results link for 2023 candidates, will update them for 2024 candidates when new results are out.
 # cbseResults2023
  This is a selenium based Python Script to get Score Cards of your Entire School(ofc 12th students)
 
