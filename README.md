@@ -1,8 +1,11 @@
 # !! WORKING for 2024 TOO !!
 ## This code is updated for results link of 2024 candidates.
-# cbseResults2023
+# Automated-CBSE-Results
  This is a selenium based Python Script to get Score Cards of your Entire School(ofc 12th students)
 
+# For linux switch to `linux` branch
+
+# Windows Steps are as Follows - 
 ## You need to clone this Repository in order to use it
 ### Step-by-Step Guide: Cloning a GitHub Repository on Windows
 Install Git:
