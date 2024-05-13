@@ -1,56 +1,22 @@
-# !! NOT WORKING ANYMORE !!
-## This code is broken as the cbse closed results link for 2023 candidates, will update them for 2024 candidates when new results are out.
-# cbseResults2023
+
+# Automated-CBSE-Results
  This is a selenium based Python Script to get Score Cards of your Entire School(ofc 12th students)
 
-## You need to clone this Repository in order to use it
-### Step-by-Step Guide: Cloning a GitHub Repository on Windows
-Install Git:
+# Install Git
 
-    Visit the official Git website at https://git-scm.com/.
-    Download the Git installer for Windows.
-    Run the installer and follow the on-screen instructions.
-    Choose the desired installation options and complete the installation process.
+## For Ubuntu/Linux Mint/ Debain
 
-Open Git Bash:
+```bash
+sudo apt install git
+```
 
-    After Git installation, search for "Git Bash" in the Start menu and open it.
+## Clone the repo and checkout to linux branch
 
-Navigate to the Desired Directory:
+```bash
+git clone https://github.com/vasujain275/Automated-CBSE-Results.git && cd Automated-CBSE-Results && git checkout linux
+```
 
-    Use the cd command in Git Bash to navigate to the directory where you want to clone the repository.
-    For example, to navigate to the "Documents" directory, use the command: cd Documents
-
-Clone the Repository:
-
-    In your web browser, go to the GitHub repository you want to clone.
-    Click on the "Code" button and copy the repository URL.
-    In Git Bash, use the command git clone https://github.com/vasujain275/cbseResults2023.git to clone the repository.
-        
-
-## Step-by-Step Guide: Setting up and Running this Python Script on Windows
-Install Python:
-
-    Visit the official Python website at https://www.python.org/.
-    Click on the "Downloads" tab.
-    Choose the latest stable version of Python for Windows.
-    Download the installer that corresponds to your system architecture (32-bit or 64-bit).
-    Run the installer and follow the on-screen instructions.
-    During the installation process, make sure to select the option to add Python to your system's PATH.
-
-Verify Python Installation:
-
-    Open the Command Prompt by pressing Win + R and typing cmd, then hit Enter.
-    Type python --version and press Enter.
-    The installed Python version should be displayed in the Command Prompt window, indicating a successful installation.
-
-Install Required Dependencies:
-
-    Navigate to the directory where you have stored your Python script using the cd command in Command Prompt.
-    If your script relies on any external libraries or modules, you may need to install them using pip, the Python package installer.
-    To install a package, use the command pip install selenium in the Command Prompt.
-
-Configure the Script:
+## Configure the Script:
 
     Open the Python script using a text editor of your choice.(Use VSCode if you are beginner)
     Look for any configurable variables or settings within the script that I have commented.(Like Roll Numbers and School Numbers)
@@ -61,9 +27,6 @@ Configure the Script:
 Download Visual Studio Code:
 
         Visit the official Visual Studio Code website at https://code.visualstudio.com/.
-        Click on the "Download" button to download the installer for Windows.
-        Run the installer and follow the on-screen instructions.
-        Choose the desired installation options and complete the installation process.
 
 Install Python Extension in VSCode:
 
@@ -110,7 +73,7 @@ Determine Chrome Version:
 
 Download Chromium Driver:
 
-    Open your preferred web browser and visit the official Chromium Driver website at https://sites.google.com/a/chromium.org/chromedriver/downloads.
+    Open your preferred web browser and visit the official Chromium Driver website at https://chromedriver.chromium.org/downloads.
     Locate the version of the Chromium Driver that matches your Chrome version from the list of available downloads.
     Click on the download link associated with the appropriate driver version for your system.
 
