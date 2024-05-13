@@ -113,7 +113,7 @@ Determine Chrome Version:
 
 Download Chromium Driver:
 
-    Open your preferred web browser and visit the official Chromium Driver website at https://sites.google.com/a/chromium.org/chromedriver/downloads.
+    Open your preferred web browser and visit the official Chromium Driver website at https://chromedriver.chromium.org/downloads.
     Locate the version of the Chromium Driver that matches your Chrome version from the list of available downloads.
     Click on the download link associated with the appropriate driver version for your system.
 
