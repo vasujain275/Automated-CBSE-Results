@@ -39,7 +39,7 @@ if __name__ == "__main__":
     school_number = 25749
     while rolls < 14639050:  # Change this value to exppected roll number end Value
         browser = Browser("Driver\chromedriver.exe")
-        browser.open_page("https://results.digilocker.gov.in/8qRDvcKXII.html")
+        browser.open_page("https://results.digilocker.gov.in/XIIashlkopqwiqmnbvzbjakfuw.html") # 2024 Results URL Updated
         sleep(1)
         browser.login_digi(rolls, school_number)
         sleep(1)
