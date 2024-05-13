@@ -31,15 +31,15 @@ class Browser:
         self.add_input(by=By.ID, value="rroll", text=roll)
         self.add_input(by=By.ID, value="sch_input", text=sch)
         self.click_button(by=By.ID, value="submit")
-        self.browser.get_screenshot_as_file(f"Results\{roll}.png")
+        self.browser.get_screenshot_as_file(f"Results/{roll}.png")
 
 
 if __name__ == "__main__":
-    rolls = 14639000  # Change it to your School roll number Starting
-    school_number = 25749
-    while rolls < 14639050:  # Change this value to exppected roll number end Value
-        browser = Browser("Driver\chromedriver.exe")
-        browser.open_page("https://results.digilocker.gov.in/8qRDvcKXII.html")
+    rolls = 26637609  # Change it to your School roll number Starting
+    school_number = 89014
+    while rolls < 26637950 :  # Change this value to exppected roll number end Value
+        browser = Browser("/usr/bin/chromedriver")
+        browser.open_page("https://results.digilocker.gov.in/XIIashlkopqwiqmnbvzbjakfuw.html")
         sleep(1)
         browser.login_digi(rolls, school_number)
         sleep(1)
